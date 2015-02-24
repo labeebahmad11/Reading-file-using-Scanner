@@ -22,7 +22,7 @@ public class ReadingFileUsingScanner {
     public static void main(String[] args) throws FileNotFoundException 
     {
         
-        File file = new File("C:\\Users\\Home\\Desktop\\xanadu.txt");
+        File file = new File("xanadu.txt");
         Scanner s = new Scanner(file);
         
         while (s.hasNextLine()) 
